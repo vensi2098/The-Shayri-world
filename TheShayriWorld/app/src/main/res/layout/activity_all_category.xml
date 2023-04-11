@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bb_img_bg"
+    tools:context=".allactivity.AllCategoryActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="#010B1B">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imgBackArrowCateg"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/back_aerrow"
+                />
+            <TextView
+                android:id="@+id/txtAllCategory"
+                android:layout_width="@dimen/_170sdp"
+                android:gravity="center"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:fontFamily="@font/amarante"
+                android:text="All Category"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_21ssp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgLike"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:src="@drawable/hheartt"
+                />
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvAllCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

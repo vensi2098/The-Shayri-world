@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_15sdp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/allshayri_bg">
+
+        <TextView
+            android:id="@+id/txtSshowShayri"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shayri hggbdsbhj frejkerjfokejk \nrhujhhjhju rfhrenrjhnj\nhjhereuhe"
+            android:textStyle="bold"
+            android:fontFamily="@font/amarante"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#ffffff"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imggFavoriteee"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginHorizontal="@dimen/_22sdp"
+                android:src="@drawable/llike"
+                android:padding="@dimen/_5sdp"
+                android:background="@drawable/iteam_category_bg"/>
+            <ImageView
+                android:id="@+id/imgShare"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginHorizontal="@dimen/_22sdp"
+                android:src="@drawable/share"
+                android:padding="@dimen/_5sdp"
+                android:background="@drawable/iteam_category_bg"/>
+            <ImageView
+                android:id="@+id/imgCopy"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginHorizontal="@dimen/_22sdp"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/copy"
+                android:background="@drawable/iteam_category_bg"/>
+            <ImageView
+                android:id="@+id/imgDownload"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/download_img"
+                android:padding="@dimen/_3sdp"
+                android:layout_marginHorizontal="@dimen/_22sdp"
+                android:background="@drawable/iteam_category_bg"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
